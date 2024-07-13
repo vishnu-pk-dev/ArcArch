@@ -1,0 +1,19 @@
+.bar {
+  transform: translate(50%, -50%);
+  top: 50%;
+  right: 50%;
+}
+.barleft {
+  transform: translate(50%, -50%) rotate(45deg);
+  top: 50%;
+  right: 50%;
+}
+.barright {
+  transform: translate(50%, -50%) rotate(-45deg);
+  top: 50%;
+  right: 50%;
+}
+.bar0 {
+  transform: rotate(0deg) translateY(-50%) translateX(0%);
+  right: 0%;
+}
